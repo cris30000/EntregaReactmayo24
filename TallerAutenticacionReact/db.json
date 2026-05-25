@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "email": "admin@correo.com",
+      "password": "$2a$10$7WgD.qmr0dUsq7sMXTTWQuLE6uZmyhwOOcXDjInCV6Sq8NvMi3Yce",
+      "role": "admin",
+      "id": 1,
+      "activo": true
+    },
+    {
+      "email": "usuario@correo.com",
+      "password": "$2a$10$4XaA0BQpPcSYAmh6FttmV.97yy6rjf8z2Ortlkn0InvsyAMmRMH.e",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "email": "usuario2@correo.com",
+      "password": "$2a$10$kCtIzBrKh6X8y69fCVZ3H.o793BNWwUWHZZLb/9og2THXV3kHnr.6",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "email": "usuario3@correo.com",
+      "password": "$2a$10$JEIpGNEItguEsae.TqPwb.Hbf85U7Ghnt6CwuwzfybuDBMtmy/Qqe",
+      "role": "user",
+      "activo": false,
+      "id": 4
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Teclados",
+      "precio": 150000
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse inhalambrico",
+      "precio": 80000
+    }
+  ],
+  "dashboard": [
+    {
+      "id": 1,
+      "userId": 1,
+      "compras": 5,
+      "productosComprados": [
+        "Teclado",
+        "Mouse"
+      ],
+      "estadistica": "Cliente frecuente"
+    }
+  ],
+  "sesiones": [
+    {
+      "userId": 1,
+      "timestamp": "24/5/2026, 9:51:30 p.m.",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "timestamp": "24/5/2026, 9:56:20 p.m.",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "timestamp": "24/5/2026, 9:56:35 p.m.",
+      "id": 3
+    }
+  ]
+}
